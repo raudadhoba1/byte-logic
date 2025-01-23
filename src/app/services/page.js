@@ -1,6 +1,6 @@
 export default function Services() {
     return (
-      <div className="bg-gray-200 pt-20 px-8">
+      <div className="bg-[#D4BEE4] pt-20 px-8">
         {/* Header Section */}
         <section className="container mx-auto text-center">
           <h1 className="text-6xl md:text-5xl font-bold mb-8 text-gray-800">Our Services</h1>
@@ -87,12 +87,12 @@ export default function Services() {
         </section>
   
         {/* Why Choose Us Section */}
-        <section className="container mx-auto mt-16">
+        <section className="bg-gray-100 container mx-auto mt-16 pt-8 px-10">
           <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">Why Choose Us?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Feature 1 */}
             <div className="flex">
-              <div className="bg-blue-500 text-white rounded-full h-12 w-12 flex items-center justify-center">
+              <div className="bg-[#3B1E54] text-white rounded-full h-12 w-12 flex items-center justify-center">
                 <span className="text-xl font-bold">1</span>
               </div>
               <div className="ml-4">
@@ -105,7 +105,7 @@ export default function Services() {
   
             {/* Feature 2 */}
             <div className="flex">
-              <div className="bg-blue-500 text-white rounded-full h-12 w-12 flex items-center justify-center">
+              <div className="bg-[#3B1E54] text-white rounded-full h-12 w-12 flex items-center justify-center">
                 <span className="text-xl font-bold">2</span>
               </div>
               <div className="ml-4">
@@ -118,7 +118,7 @@ export default function Services() {
   
             {/* Feature 3 */}
             <div className="flex">
-              <div className="bg-blue-500 text-white rounded-full h-12 w-12 flex items-center justify-center">
+              <div className="bg-[#3B1E54] text-white rounded-full h-12 w-12 flex items-center justify-center">
                 <span className="text-xl font-bold">3</span>
               </div>
               <div className="ml-4">
@@ -131,7 +131,7 @@ export default function Services() {
   
             {/* Feature 4 */}
             <div className="flex">
-              <div className="bg-blue-500 text-white rounded-full h-12 w-12 flex items-center justify-center">
+              <div className="bg-[#3B1E54] text-white rounded-full h-12 w-12 flex items-center justify-center">
                 <span className="text-xl font-bold">4</span>
               </div>
               <div className="ml-4">
@@ -143,6 +143,7 @@ export default function Services() {
             </div>
           </div>
         </section>
+        <br/>
       </div>
     );
   }

@@ -16,17 +16,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-16 bg-[#D4BEE4]">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-semibold mb-6">Who We Are</h2>
-          <p className="text-lg text-gray-700 max-w-4xl mx-auto">
-            We are a team of passionate developers, designers, and strategists who work with businesses of all sizes to deliver
-            top-notch digital experiences. Whether it's web development, mobile apps, or branding, we bring your ideas to life.
-          </p>
-        </div>
-      </section>
-
+      
       {/* Services Section */}
       <section id="services" className="py-16 bg-gray-200">
         <div className="container mx-auto text-center">
@@ -47,6 +37,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* About Section */}
+      <section id="about" className="py-16 bg-[#D4BEE4]">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-semibold mb-6">Who We Are</h2>
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto">
+            We are a team of passionate developers, designers, and strategists who work with businesses of all sizes to deliver
+            top-notch digital experiences. Whether it's web development, mobile apps, or branding, we bring your ideas to life.
+          </p>
+        </div>
+      </section>
+
 
       {/* Team Section */}
       <section id="team" className="py-16 bg-[#D4BEE4]">

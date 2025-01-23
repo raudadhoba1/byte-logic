@@ -7,7 +7,7 @@ export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[--header] text-white py-4 px-6 shadow-md fixed top-0 w-full z-50">
+    <header className="bg-[#1B1833] text-white py-4 px-6 shadow-md fixed top-0 w-full z-50">
       <div className="container bg-fixed mx-auto flex justify-between items-center">
          <Link href="/" className="text-2xl font-bold text-white hover:text-yellow-500 transition">
           ByteLogic
