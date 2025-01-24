@@ -8,6 +8,12 @@
   --header: #3B1E54;
   --body: #9B7EBD;
   --bg:#D4BEE4;
+  --c1:#9B908E;
+  --c2:#E5E5E5;
+  --c3:#766A69;
+  --c4:#333;
+
+
 }
 
 @media (prefers-color-scheme: dark) {
