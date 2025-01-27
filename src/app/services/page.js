@@ -98,7 +98,7 @@ export default function Services() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="bg-gradient-to-r from-purple-600 to-purple-800 container mx-auto mt-16 pt-8 px-10 rounded-xl shadow-lg">
+      <section className="bg-[#8a6ba5] container mx-auto mt-16 pt-8 px-10 rounded-xl shadow-lg">
         <h2 className="text-4xl font-extrabold text-white text-center mb-8">Why Choose Us?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Feature 1 */}
@@ -138,6 +138,7 @@ export default function Services() {
                 Your satisfaction is our top priority. We work closely with you to meet your unique needs.
               </p>
             </div>
+            <br/>
           </div>
 
           {/* Feature 4 */}
@@ -152,6 +153,7 @@ export default function Services() {
               </p>
             </div>
           </div>
+          <br/>
         </div>
       </section>
 
