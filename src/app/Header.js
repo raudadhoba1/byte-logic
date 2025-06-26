@@ -7,7 +7,7 @@ export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[--header] text-white py-4 px-6 shadow-md fixed top-0 w-full z-50">
+<header className="bg-[--header] text-white py-4 px-6 shadow-md w-full z-50">
       <div className="container bg-fixed mx-auto flex justify-between items-center">
          <Link href="/" className="text-2xl font-bold text-white hover:text-yellow-500 transition">
           ByteLogic
@@ -17,6 +17,7 @@ export default function Header() {
          <nav className="hidden md:flex space-x-8">
           <Link href="/" className="hover:text-yellow-500 transition">Home</Link>
           <Link href="/aboutus" className="hover:text-yellow-500 transition">About</Link>
+          <Link href="/product" className="hover:text-yellow-500 transition">Product</Link>
           <Link href="/services" className="hover:text-yellow-500 transition">Services</Link>
           <Link href="/contactus" className="hover:text-yellow-500 transition">Contact</Link>
         </nav> 
@@ -34,13 +35,15 @@ export default function Header() {
 
       
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-blue-600 text-white mt-4 space-y-4 px-6 py-4">
-          <Link href="/" className="block hover:text-yellow-500">Home</Link>
-          <Link href="/aboutus" className="block hover:text-yellow-500">About</Link>
-          <Link href="/services" className="block hover:text-yellow-500">Services</Link>
-          <Link href="/contactus" className="block hover:text-yellow-500">Contact</Link>
-        </div>
-      )}
+  <div className="md:hidden mt-4 mx-4 rounded-lg border border-white bg-blue-700 shadow-lg px-6 py-4 space-y-4 transition-all duration-300">
+    <Link href="/" className="block text-white hover:text-yellow-400" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+    <Link href="/product" className="block text-white hover:text-yellow-400" onClick={() => setMobileMenuOpen(false)}>Product</Link>
+    <Link href="/aboutus" className="block text-white hover:text-yellow-400" onClick={() => setMobileMenuOpen(false)}>About</Link>
+    <Link href="/services" className="block text-white hover:text-yellow-400" onClick={() => setMobileMenuOpen(false)}>Services</Link>
+    <Link href="/contactus" className="block text-white hover:text-yellow-400" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
+  </div>
+)}
+
 
      
     </header>
